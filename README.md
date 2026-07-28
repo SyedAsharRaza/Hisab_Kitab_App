@@ -100,7 +100,7 @@ Every user can only read/write their own profile and their own ledger entries. A
 ### Setup
 ```bash
 git clone https://github.com/SyedAsharRaza/Hisab_Kitab_App.git
-cd hisabkitab-flutter
+cd Hisab_Kitab_App
 flutter pub get
 ```
 
