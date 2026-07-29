@@ -2,11 +2,13 @@ import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'app/app_name.dart';
 import 'app/injection_container.dart';
+import 'core/config/responsive_config.dart';
 import 'core/services/logger/logger_service.dart';
 import 'firebase_options.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
+
   try {
     await Firebase.initializeApp(
       options: DefaultFirebaseOptions.currentPlatform,
@@ -15,6 +17,12 @@ Future<void> main() async {
   } catch (e) {
     AppLogger.error('Firebase initialization failed', 'Main', e);
   }
+
   await initDependencies();
-  runApp(const HisabKitabApp());
+
+  runApp(
+    const ResponsiveProvider(
+      child: HisabKitabApp(),
+    ),
+  );
 }
