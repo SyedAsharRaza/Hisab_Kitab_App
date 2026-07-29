@@ -123,7 +123,7 @@ flutter run
 lib/
 ├── main.dart
 ├── app/
-│   ├── app_name.dart
+│   ├── HisabKitabApp.dart
 │   └── injection_container.dart
 ├── core/
 │   ├── constants/ enums/ extensions/ router/ services/ theme/ utils/ widgets/ error/
