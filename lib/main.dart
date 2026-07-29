@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
-import 'app/app_name.dart';
+import 'app/HisabKitabApp.dart';
 import 'app/injection_container.dart';
 import 'core/config/responsive_config.dart';
 import 'core/services/logger/logger_service.dart';

@@ -1,4 +1,4 @@
-# HisabKitab 📒
+# HisabKitab 
 
 **Friendship in its place, accounts in theirs.**
 
@@ -6,7 +6,7 @@ HisabKitab is a sleek, simple personal ledger app for tracking money borrowed fr
 
 ---
 
-## 📱 Screenshots
+## Screenshots
 
 | Sign In | Owed to Me | I Owe | New Entry |
 |---|---|---|---|
@@ -14,7 +14,7 @@ HisabKitab is a sleek, simple personal ledger app for tracking money borrowed fr
 
 ---
 
-## ✨ Features
+##  Features
 
 - **Onboarding** — quick 3-slide intro to the app's core value
 - **Authentication** — email/password sign-up and login via Firebase Auth
@@ -29,7 +29,7 @@ HisabKitab is a sleek, simple personal ledger app for tracking money borrowed fr
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 This project follows **Clean Architecture**, separated into three layers per feature:
 
@@ -52,7 +52,7 @@ features/
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 
 | Concern | Package / Approach |
 |---|---|
@@ -70,7 +70,7 @@ features/
 
 ---
 
-## 🔐 Firestore Security Rules
+## Firestore Security Rules
 
 ```js
 rules_version = '2';
@@ -91,7 +91,7 @@ Every user can only read/write their own profile and their own ledger entries. A
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Flutter SDK (stable channel)
@@ -117,7 +117,7 @@ flutter run
 
 ---
 
-## 📂 Project Structure (abridged)
+## Project Structure (abridged)
 
 ```
 lib/
@@ -137,6 +137,6 @@ lib/
 
 ---
 
-## 📝 License
+## License
 
 Built as part of an internship project. Free to use as a learning reference.
